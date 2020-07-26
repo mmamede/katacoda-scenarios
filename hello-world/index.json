@@ -21,7 +21,7 @@
   ],
   "environment": {
     "uieditorpath": "/root/myk8s",
-    "showide": true,
+    "uisettings": "javascript",
     "uilayout": "editor-terminal"
   },
   "backend": {
