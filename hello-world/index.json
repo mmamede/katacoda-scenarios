@@ -16,9 +16,14 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "pod-1.0.yaml", "service-1.0.yaml"
+  ],
   "environment": {
-    "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart minikube using `minikube start`\u001b[m\r\n"
+    "uieditorpath": "/root/myk8s",
+    "showide": true,
+    "idePort": 23000,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "minikube"
