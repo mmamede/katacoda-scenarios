@@ -10,3 +10,6 @@ https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 https://[[HOST_SUBDOMAIN]]-[[30080]].environments.katacoda.com/
+
+
+`minikube start`{{execute}} 
