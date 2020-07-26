@@ -22,7 +22,6 @@
   "environment": {
     "uieditorpath": "/root/myk8s",
     "showide": true,
-    #"idePort": 23000,
     "uilayout": "editor-terminal"
   },
   "backend": {
