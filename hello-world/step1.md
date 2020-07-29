@@ -1,18 +1,14 @@
 This is your first step.
 
-## Task
+## Task
 
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
+`minikube start`{{execute}} 
 
 https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
 
 
 https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/
 
-
-`minikube start`{{execute}} 
 
 Abrir novo arquivo - `newFile.yaml`{{open}}
 
@@ -28,7 +24,7 @@ metadata:
 spec:
   containers:
   - name: webapp
-    image: richardchesterwood/k8s-fleetman-webapp-angular:release0
+    image: mamede/k8s-intro-v2
 </pre>
 
 <pre class="file" data-filename="service-1.0.yaml" data-target="replace">apiVersion: v1
@@ -46,3 +42,5 @@ spec:
       port: 80
       nodePort: 30080
 </pre>
+
+`kubectl apply -f .`{{execute}} 
