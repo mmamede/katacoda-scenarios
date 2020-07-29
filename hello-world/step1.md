@@ -1,14 +1,6 @@
-This is your first step.
-
 ## Task
 
 `minikube start`{{execute}} 
-
-https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
-
-
-https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/
-
 
 Abrir novo arquivo - `newFile.yaml`{{open}}
 
@@ -43,4 +35,10 @@ spec:
       nodePort: 30080
 </pre>
 
-`kubectl apply -f .`{{execute}} 
+`kubectl apply -f myk8s/.`{{execute}} 
+
+
+https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/
