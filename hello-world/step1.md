@@ -1,8 +1,8 @@
-## Task
+## Teste minikube
 
 `minikube start`{{execute}} 
 
-Abrir novo arquivo - `newFile.yaml`{{open}}
+Abrir novo arquivo - `novoArquivo.yaml`{{open}}
 
 <pre class="file" data-filename="pod-1.0.yaml" data-target="replace">apiVersion: v1
 kind: Pod
@@ -16,7 +16,7 @@ metadata:
 spec:
   containers:
   - name: webapp
-    image: mamede/k8s-intro-v2
+    image: mamede/k8s-intro:v1
 </pre>
 
 <pre class="file" data-filename="service-1.0.yaml" data-target="replace">apiVersion: v1
